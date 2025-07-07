@@ -1,8 +1,10 @@
+import { H1, P } from "../components/Typography";
+
 export const TimeAttackPage = () => {
   return (
     <article className="article">
-      <h1 className="article__title">Гонка Time Attack</h1>
-      <p className="article__paragraph">
+      <H1>Гонка Time Attack</H1>
+      <P>
         Гонка Time Attack создана для тех, кто любит ставить рекорды – открытое
         соревнование на гражданских автомобилях не предполагает контактной
         борьбы пилотов во время заезда, но позволит в полной мере ощутить
@@ -12,7 +14,7 @@ export const TimeAttackPage = () => {
         всех заездов. Для того, чтобы попробовать свои силы на лучшей гоночной
         трассе страны, Вам понадобится исправный легковой автомобиль на летних
         шинах и шлем.
-      </p>
+      </P>
     </article>
   );
 };
